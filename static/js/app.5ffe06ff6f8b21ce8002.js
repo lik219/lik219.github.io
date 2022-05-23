@@ -715,7 +715,7 @@ webpackJsonp([1], {
                     attrs: {
                         title: "Token获取",
                         type: "info",
-                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token. 详情参考README.md",
+                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token.",
                         closable: !1
                     }
                 })], 1)]), t._v(" "), i("token-dialog", {
@@ -984,7 +984,7 @@ webpackJsonp([1], {
                         target: "_blank"
                     }
                 },
-                [t._v("博客源码")])], 2), t._v(" "), i("div", {
+                [t._v("个人简历")])], 2), t._v(" "), i("div", {
                     staticStyle: {
                         position: "relative",
                         "z-index": "2",
