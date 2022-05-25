@@ -156,12 +156,10 @@ webpackJsonp([1], {
         });
         x.interceptors.request.use(function(t) {
             var e = j.state.token.token;
-            if (e) {
-                var i = "?";
-                t.url.indexOf("?") >= 0 && (i = "&"),
-                t.url = t.url + i + "access_token=" + e
-            }
-            return t
+            return e && (t.headers = {
+                Authorization: "token " + e
+            }), 
+            t
         },
         function(t) {}),
         x.interceptors.response.use(function(t) {
@@ -188,7 +186,10 @@ webpackJsonp([1], {
         var _ = x,
         y = function(t) {
             return _({
-                url: "/user?access_token=" + t
+                headers: {
+                    Authorization: "token " + t
+                },
+                url: "/user"		
             })
         },
         S = function() {
@@ -715,7 +716,7 @@ webpackJsonp([1], {
                     attrs: {
                         title: "Token获取",
                         type: "info",
-                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token.",
+                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token. 详情参考README.md",
                         closable: !1
                     }
                 })], 1)]), t._v(" "), i("token-dialog", {
@@ -984,7 +985,7 @@ webpackJsonp([1], {
                         target: "_blank"
                     }
                 },
-                [t._v("个人简历")])], 2), t._v(" "), i("div", {
+                [t._v("博客源码")])], 2), t._v(" "), i("div", {
                     staticStyle: {
                         position: "relative",
                         "z-index": "2",
