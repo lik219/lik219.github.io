@@ -754,7 +754,7 @@ webpackJsonp([1], {
                         span: 10
                     }
                 },
-                [i("div", [t._v("\n\t\t\t\t© 2022 GitHub-lik219  \n\t\t\t\t"), i("a", {
+                [i("div", [t._v("\n\t\t\t\t© 2022 GitHub-lik219 Modified  \n\t\t\t\t"), i("a", {
                     attrs: {
                         href: "https://github.com/lik219",
                         target: "_blank"
@@ -981,7 +981,7 @@ webpackJsonp([1], {
                 [t._v("GitHub主页")]), t._v(" "), t.mini ? t._e() : i("a", {
                     staticClass: "btn",
                     attrs: {
-                        href: "https://github.com/GitHub-Laziji/vblog",
+                        href: "https://github.com/lik219",
                         target: "_blank"
                     }
                 },
@@ -1030,7 +1030,7 @@ webpackJsonp([1], {
                         index: "#githubHome"
                     }
                 },
-                [t._v("github主页")]), t._v(" "), i("el-menu-item", {
+                [t._v("GitHub主页")]), t._v(" "), i("el-menu-item", {
                     attrs: {
                         index: "#blog"
                     }
