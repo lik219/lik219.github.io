@@ -15,9 +15,6 @@
 博客可搭建在 GitHub Pages 上,
 文章数据储存于gist 中, 通过Github API 与数据进行交互, 实现无后台、可动态发布文章的博客系统
 
-> 最近暂无更新计划
-
-
 ## 演示地址
 [https://lik219.github.io]
 
@@ -30,7 +27,6 @@
 - [x] 改进传统 GitHub Pages 不能动态发布的缺陷
 - [x] 包含电脑端和移动端
 - [x] 单页面应用
-
 
 ## 更新记录
 
@@ -46,20 +42,15 @@
 - 点击github头像旁边的 "+" 号 选择 ```Import repository ```克隆地址填 ```https://github.com/lik219/lik219.github.io ```项目名填 ```你的用户名.github.io ```
 - 克隆完成后 修改文件 ```/static/configuration.json``` 中的 ```githubUsername``` 为自己的github用户名
 
-
 类似演示地址其中 lik219 为我的用户名
 
-
-现在 ```https://你的用户名.github.io``` 就是你的个人博客了,例如[https://github-laziji.github.io]
-
-
+现在 ```https://你的用户名.github.io``` 就是你的个人博客了。
 
 #### 获取Token
 
 在 ```github > settings > Developer settings > Personal access tokens```  勾选```gist``` 和 ```repo```权限 获取```Token```
 
-
 ------
 
-
-作者 *Laziji*   lik219修改
+作者 *Laziji*
+修改 *lik219*
