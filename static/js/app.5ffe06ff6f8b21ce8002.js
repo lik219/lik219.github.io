@@ -716,7 +716,7 @@ webpackJsonp([1], {
                     attrs: {
                         title: "Token获取",
                         type: "info",
-                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token. 详情参考README.md",
+                        description: "在 github-> settings-> developerSettings-> personalAccessTokens 勾选gist权限,获取Token. 详情参考README",
                         closable: !1
                     }
                 })], 1)]), t._v(" "), i("token-dialog", {
@@ -5125,13 +5125,13 @@ webpackJsonp([1], {
             meta: {
                 type: "user",
                 icon: "el-icon-document",
-                title: "README.md"
+                title: "README"
             },
             children: [{
                 path: "main",
                 component: Ut,
                 meta: {
-                    title: "README.md"
+                    title: "README"
                 }
             }]
         },
